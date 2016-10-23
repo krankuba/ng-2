@@ -1,13 +1,13 @@
-<h1>Angular-2 Racing Application</h1>
+#Angular-2 Racing Application
 
-<h2>Build and Run the App</h2>
+##Build and Run the App
 
 npm install
 npm start
 
 
 
-<h3>Notes</h3>
+######Notes
 
 Prerequisite: Install Node.js (v4+) and npm (v3+)
 
