@@ -1,6 +1,14 @@
-Angular-2 Racing Application Showcase
+<h1>Angular-2 Racing Application</h1>
 
--------------------------------------------------
+<h2>Build and Run the App</h2>
+
+npm install
+npm start
+
+
+
+<h3>Notes</h3>
+
 Prerequisite: Install Node.js (v4+) and npm (v3+)
 
 If Node.js and npm aren't already on your machine, install them. Our examples require node v4.x.x or higher and npm 3.x.x or higher. To check which version you are using, run node -v and npm -v in a terminal window.
@@ -10,7 +18,8 @@ If Node.js and npm aren't already on your machine, install them. Our examples re
 Step 1: Create and configure the project
 
 Download/Clone to your system and unzip.
-Open a terminal window and enter this command:
+
+Run in terminal window:
 
 npm install
 
@@ -21,8 +30,6 @@ npm run typings install
 -------------------------------------------------
 
 Step 2: Build and run the application
-
-Open a terminal window and enter this command:
 
 npm start
 
