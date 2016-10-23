@@ -10,7 +10,7 @@ npm start
 ```
 
 
-###### Additional Information
+## Additional Information
 
 Prerequisite: Install Node.js and npm
 
