@@ -2,12 +2,14 @@
 
 ## Build and Run the App
 
+```
 npm install
+
 npm start
+```
 
 
-
-###### Additional Information
+## Additional Information
 
 Prerequisite: Install Node.js (v4+) and npm (v3+)
 
