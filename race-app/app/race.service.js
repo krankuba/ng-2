@@ -8,21 +8,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var mocks_1 = require('./mocks');
 var core_1 = require('@angular/core');
-var race_service_1 = require('./race.service');
-var AppComponent = (function () {
-    function AppComponent() {
-        this.heading = "Ultra Racing Schedule";
+var RaceService = (function () {
+    function RaceService() {
     }
-    AppComponent = __decorate([
-        core_1.Component({
-            selector: 'racing-app',
-            template: "\n        <h1>{{heading}}</h1>\n        <my-races>Loading Races..</my-races>\n    ",
-            providers: [race_service_1.RaceService]
-        }), 
+    RaceService.prototype.getRaces = function () {
+        return mocks_1.RACES;
+    };
+    RaceService = __decorate([
+        core_1.Injectable(), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], RaceService);
+    return RaceService;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.RaceService = RaceService;
+//# sourceMappingURL=race.service.js.map

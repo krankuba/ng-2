@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RaceModel } from './race-model';
-import { RACES } from './mocks';
+import { RaceService } from './race.service';
 
 @Component({
     selector: 'my-races',
@@ -12,8 +12,11 @@ export class RacesComponent implements OnInit {
     heading = "Ultra Racing Schedule"
     cash = 10000;
     races: RaceModel[];
+
+    constructor(private raceService: RaceService) { }
+
     ngOnInit() {
-        this.races = RACES;
+        this.races = this.raceService.getRaces();
     }
 
     totalCost() {
