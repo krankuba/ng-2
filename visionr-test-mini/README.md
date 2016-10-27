@@ -4,7 +4,7 @@
 
 In case you want to run in with Visionr-core/dev:
 ```
-npm link ../npm-dev
+npm link ../visionr-dev
 ```
 If not, directly:
 
